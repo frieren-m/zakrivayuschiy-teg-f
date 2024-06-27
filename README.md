@@ -1,1 +1,1 @@
-git@github.com:frieren-m/zakrivayuschiy-teg-f.git
+https://github.com/frieren-m/zakrivayuschiy-teg-f.git
