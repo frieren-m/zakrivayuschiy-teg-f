@@ -20,6 +20,7 @@
   background-attachment: fixed; /*Фон фиксирован, скроллится со всей страницей.*/
   background-size: cover; /*фон из градиентов заливал всё пространство страницы*/
   background-image: var(--page-background-image);
+  background-position: center;
   padding-block-start: 100px;
 }
 
