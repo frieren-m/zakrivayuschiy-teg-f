@@ -23,6 +23,9 @@
   background-position: center;
   padding-block-start: 100px;
 }
+ .link {
+  text-decoration: none;
+ }
 
 /*html+текст+навигация*/
 .header {
@@ -210,6 +213,7 @@
   background: transparent;
   cursor: pointer;
   padding: 0;
+  transition: border-color 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -218,7 +222,6 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--accent-color);
-  transition: border-color 0.3s ease;
 }
 
 /*кнопка оборачивающая иконку*/

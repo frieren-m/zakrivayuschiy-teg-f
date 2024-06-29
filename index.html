@@ -18,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header card">
-      <a href="" style="text-decoration: none;"><div class="logo__page">&lt;/HTML&gt;</div></a>
+      <a class=link href=""><div class="logo__page">&lt;/HTML&gt;</div></a>
       <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -597,35 +597,36 @@
           </button>
         </div>
       </article>
-    </main>
-    <footer class="footer modal__window">
-      <button
-        type="button"
-        onclick="window.modal.showModal();"
-        aria-controls="modal"
-        class="button button--save"
-      >
-        <svg class="button__icon" viewBox="0 0 29 28">
-          <use href="svg/image-diskette.svg#image-diskette" />
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-
-      <dialog class="modal" id="modal">
-        <div class="modal__content">
-          <svg class="modal__icon" viewBox="0 0 29 28">
+      <section class="footer modal__window">
+        <button
+          type="button"
+          onclick="window.modal.showModal();"
+          aria-controls="modal"
+          class="button button--save"
+        >
+          <svg class="button__icon" viewBox="0 0 29 28">
             <use href="svg/image-diskette.svg#image-diskette" />
           </svg>
-          <h2 class="modal__title">Вставьте дискету, чтобы продолжить</h2>
-        </div>
-        <form method="dialog">
-          <button type="submit" class="button modal__button">
-            <span class="button__text">ок</span>
-          </button>
-        </form>
-      </dialog>
-    </footer>
-
+          <span class="button__text">Сохранить на память</span>
+        </button>
+  
+        <dialog class="modal" id="modal">
+          <div class="modal__content">
+            <svg class="modal__icon" viewBox="0 0 29 28">
+              <use href="svg/image-diskette.svg#image-diskette" />
+            </svg>
+            <h2 class="modal__title">Вставьте дискету, чтобы продолжить</h2>
+          </div>
+          <form method="dialog">
+            <button type="submit" class="button modal__button">
+              <span class="button__text">ок</span>
+            </button>
+          </form>
+        </dialog>
+      </section>
+  
+    </main>
+ 
     <script src="./scripts/like.js"></script>
   </body>
 </html>
