@@ -25,6 +25,7 @@
 }
  .link {
   text-decoration: none;
+  outline: none;
  }
 
 /*html+текст+навигация*/
@@ -214,6 +215,7 @@
   cursor: pointer;
   padding: 0;
   transition: border-color 0.3s ease;
+  margin-right: 5px;
 }
 
 .card__icon-button:focus {
