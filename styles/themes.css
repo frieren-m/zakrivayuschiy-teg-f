@@ -9,8 +9,8 @@
   --background-color-main: #fff;
   --accent-color:  #000;
   color: var(--accent-color);
-  --main-font-weight-card: 400;
-  --font-weight-heading-card: 700;
+  --text-font-weight: "wght" 400;
+  --title-font-weight: "wght" 700;
   --page-background-image: repeating-linear-gradient(
       to left,
       #d3d3d3 0 2px,
@@ -34,8 +34,8 @@
     linear-gradient(to bottom, #007f0c, #004306);
   background-color: var(--background-color-main);
   color: var(--accent-color);
-  --main-font-weight-card: 465;
-  --font-weight-heading-card: 785;
+  --text-font-weight: "wght" 465;
+  --title-font-weight: "wght" 785;
   background-image: var(--page-background-image);
   --text-stroke-color: #666;
   --like-contour-color: #00cc14;
@@ -55,8 +55,8 @@
       linear-gradient(to bottom, #007f0c, #004306);
     background-color: var(--background-color-main);
     color: var(--accent-color);
-    --main-font-weight-card: 465;
-    --font-weight-heading-card: 785;
+    --text-font-weight: "wght" 465;
+    --title-font-weight: "wght" 785;
     background-image: var(--page-background-image);
     --text-stroke-color: #666;
     --button-text-color: #00cc14;

@@ -2,8 +2,8 @@
 :root {
   --main-font-family: "Inter", sans-serif; /*основной шрифт*/
   --accent-font-family: "PressStart2P", monospace; /*акцентный шрифт*/
-  --main-font-weight-card: 400; /*толщинa основного текста карточки */
-  --font-weight-heading-card: 700; /* толщину заголовка карточки*/
+  --title-font-weight: "wght" 785;
+  --text-font-weight: "wght" 465;
   --background-color-main: #fff;
   --accent-color: #000;
   --page-background-image: repeating-linear-gradient(

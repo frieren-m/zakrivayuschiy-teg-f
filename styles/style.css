@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
-  font-variation-settings: "wght" var(--normal-wght, 400); /*Подключение шрифта.*/
+  font-variation-settings: var(--text-font-weight); /*Подключение шрифта.*/
   background-color: var(--background-color-main);
   color: var(--accent-color);
   background-attachment: fixed; /*Фон фиксирован, скроллится со всей страницей.*/
@@ -182,7 +182,7 @@
 
 /*заголовок над картинкой*/
 .card__title {
-  font-variation-settings: "wght" var(--bold-wght, 700);
+  font-variation-settings: var(--title-font-weight);
   font-size: 18px;
   line-height: normal;
   padding: 5px 10px;
@@ -196,7 +196,7 @@
   padding: 25px;
   font-size: 18px;
   line-height: calc(21 / 18);
-  font-variation-settings: "wght" var(--normal-wght, 400);
+  font-variation-settings: var(--text-font-weight);
 }
 
 /*кнопка сердца и like*/
